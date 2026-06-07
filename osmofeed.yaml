@@ -1,0 +1,17 @@
+siteTitle: "RSS 阅读"
+cacheUrl: https://yunpurple-code.github.io/rss-reader/cache.json
+timezone: Asia/Shanghai
+
+sources:
+  # GitHub
+  - href: https://github.blog/feed/
+  - href: https://github.com/trending.atom
+
+  # Reddit
+  - href: https://www.reddit.com/.rss
+  - href: https://www.reddit.com/r/programming/.rss
+
+  # X (via nitter — X 不再提供原生 RSS)
+  # nitter 可能有多个可用域名，按实际情况切换
+  - href: https://nitter.net/rss
+  - href: https://rss-bridge.org/bridge01/?action=display&bridge=Twitter&u=openai&format=Atom
